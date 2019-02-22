@@ -1,0 +1,5 @@
+{
+  "name": "NetherTorch",
+  "image": "netherTorch.png",
+  "collidable":  true
+}

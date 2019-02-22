@@ -1,0 +1,5 @@
+{
+  "name": "Portal",
+  "image": "Portal.png",
+  "class": "com.cd.tile.Portal"
+}

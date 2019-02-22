@@ -1,0 +1,5 @@
+{
+  "name": "NetherWall",
+  "image": "netherWall.png",
+  "collidable":  true
+}

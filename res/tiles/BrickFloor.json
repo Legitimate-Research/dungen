@@ -1,0 +1,5 @@
+{
+  "name": "BrickFloor",
+  "image": "brickFloor.png",
+  "class": "com.cd.tile.RandomChestBuilder"
+}

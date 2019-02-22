@@ -1,0 +1,13 @@
+
+.idea
+.floo
+.flooignore
+.gradle
+
+/build/
+/out/
+
+
+
+
+

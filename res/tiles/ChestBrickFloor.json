@@ -1,0 +1,5 @@
+{
+  "name": "ChestBrickFloor",
+  "image": "chestBrickFloor.png",
+  "class": "com.cd.tile.ChestTile"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "BrickWall",
+  "image": "brickWall.png",
+  "collidable":  true
+}

@@ -1,0 +1,33 @@
+group 'com.cd'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+
+mainClassName = 'com.cd.Launch'
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    // https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple
+    compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
+
+
+}

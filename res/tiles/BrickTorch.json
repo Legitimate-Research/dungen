@@ -1,0 +1,5 @@
+{
+  "name": "BrickTorch",
+  "image": "brickTorch.png",
+  "collidable":  true
+}
